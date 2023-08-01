@@ -63,7 +63,7 @@ export function HeadComponent({ products }) {
 				name="twitter:image"
 				content="https://www.intexjo.com/Assets/images/www.intexjo.com.png"
 			/>
-			<link rel="icon" href="/icon.jpg" />
+			<link rel="icon" href="/Assets/images/kids-marty-icon.png" />
 		</Head>
 	);
 }

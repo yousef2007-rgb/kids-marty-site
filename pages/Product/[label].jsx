@@ -34,7 +34,7 @@ export async function getServerSideProps(context) {
 		'Cache-Control',
 		'public, s-maxage=50, stale-while-revalidate=59'
 	);
-	if (data.data.res[0].field_category == 55) {
+	if (data.data.res[0].field_category == 4) {
 		return { props: { data, isLoading: false } };
 	} else {
 		context.res.writeHead(404);

@@ -81,7 +81,7 @@ export function HeadComponent({ product }) {
 				content={product.field_item_name}
 			/>
 			<meta name="twitter:image" content={product.image} />
-			<link rel="icon" href="/icon.jpg" />
+			<link rel="icon" href="/Assets/images/kids-marty-icon.png" />
 		</Head>
 	);
 }

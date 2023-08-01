@@ -13,9 +13,9 @@ module.exports = {
 				desktop: "1280px",
 			},
 			colors: {
-				primary: "#2596BE",
+				primary: "#4bbcd4",
 				blue_gray: "#55a4b6",
-				secondery: "#f7c44a",
+				secondery: "#e91c47",
 			}
 		},
 	},

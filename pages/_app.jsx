@@ -1,13 +1,13 @@
-import "../styles/globals.scss";
-import { store } from "../store";
-import { Provider } from "react-redux";
-import { Analytics } from "@vercel/analytics/react";
-import Loading from '../components/ui/Loading'
-import Script from "next/script";
+import '../styles/globals.scss';
+import { store } from '../store';
+import { Provider } from 'react-redux';
+import { Analytics } from '@vercel/analytics/react';
+import Loading from '../components/ui/Loading';
+import Script from 'next/script';
 function MyApp({ Component, pageProps }) {
 	return (
 		<Provider store={store}>
-			<Script id="script1" strategy="lazyOnload" src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`} />
+			{/* <Script id="script1" strategy="lazyOnload" src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`} />
 
 			<Script id="script2" strategy="lazyOnload">
 				{`
@@ -18,9 +18,9 @@ function MyApp({ Component, pageProps }) {
 		page_path: window.location.pathname,
 		});
 	`}
-			</Script>
+			</Script> */}
 			<Component {...pageProps} />
-			<Analytics />
+			{/* <Analytics /> */}
 			<Loading />
 		</Provider>
 	);

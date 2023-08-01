@@ -4,12 +4,9 @@ export default function Footer({}) {
 		<footer className=" bg-gray-100 p-4  sm:p-6">
 			<div className="mx-auto max-w-6xl sm:flex sm:justify-between">
 				<div className="mx-auto mb-6 w-fit max-w-[175px] sm:mx-0 md:mb-0">
-					<a
-						href="https://www.intexjo.com/"
-						className="flex items-center"
-					>
+					<a href="/" className="flex items-center">
 						<img
-							src="/Assets/images/logo.png"
+							src="/Assets/images/kids-marty-logo.png"
 							className="mr-3  w-full"
 							alt="FlowBite Logo"
 						/>
@@ -95,11 +92,8 @@ export default function Footer({}) {
 			<div className="mx-auto max-w-6xl sm:flex sm:items-center sm:justify-between">
 				<span className="text-sm text-gray-500 dark:text-gray-400 sm:text-center">
 					© 2023{' '}
-					<a
-						href="https://www.intexjo.com/"
-						className="hover:underline"
-					>
-						IntexJo™
+					<a href="/" className="hover:underline">
+						KidsMarty™
 					</a>
 					. All Rights Reserved.
 				</span>
