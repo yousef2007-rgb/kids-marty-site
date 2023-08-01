@@ -162,32 +162,60 @@
 						{
 							"items": [
 								{
-									"text": "برك",
-									"link": "/Products/342?title=البرك"
+									"text": "الألعاب التعليمية",
+									"link": "/Products/8?title=ألعاب تعليمية&lang=arabic"
 								},
 								{
-									"text": "المنتجات القابلة للنفخ",
-									"link": "/Products/1515?title=المنتجات%20القابلة%20للنفخ"
+									"text": "مجموعات الألعاب",
+									"link": "/Products/9?title=مجموعات ألعاب&lang=arabic"
 								},
 								{
-									"text": "برك نفخ",
-									"link": "/Products/343?title=برك%20نفخ"
+									"text": "ألعاب التصويب",
+									"link": "/Products/54?title=ألعاب تصويب&lang=arabic"
 								},
 								{
-									"text": "اثاث",
-									"link": "/Products/1944?title=الاثاث"
+									"text": "ألعاب الرياضة",
+									"link": "/Products/53?title=ألعاب رياضية&lang=arabic"
 								},
 								{
-									"text": "اكسسوارات",
-									"link": "/Products/344?title=اكسسوارات"
+									"text": "الدمى",
+									"link": "/Products/5?title=دمى&lang=arabic"
 								},
 								{
-									"text": "قوارب قابلة للنفخ",
-									"link": "/Products/1514?title=قوارب%20القابلة%20للنفخ"
+									"text": "الإكسسوارات",
+									"link": "/Products/61?title=إكسسوارات&lang=arabic"
 								},
 								{
-									"text": "منفاخ",
-									"link": "/Products/346?title=منافيخ"
+									"text": "ألعاب القطيفة",
+									"link": "/Products/1641?title=ألعاب قطيفة&lang=arabic"
+								},
+								{
+									"text": "ألعاب الأطفال الرضع",
+									"link": "/Products/62?title=ألعاب أطفال رضع&lang=arabic"
+								},
+								{
+									"text": "ألعاب التحكم عن بعد",
+									"link": "/Products/7?title=ألعاب تحكم عن بعد&lang=arabic"
+								},
+								{
+									"text": "التماثيل",
+									"link": "/Products/51?title=تماثيل&lang=arabic"
+								},
+								{
+									"text": "ألعاب تعمل بالبطاريات",
+									"link": "/Products/6?title=ألعاب تعمل بالبطاريات&lang=arabic"
+								},
+								{
+									"text": "ألعاب خشبية",
+									"link": "/Products/1643?title=ألعاب خشبية&lang=arabic"
+								},
+								{
+									"text": "الألعاب",
+									"link": "/Products/63?title=ألعاب&lang=arabic"
+								},
+								{
+									"text": "ألعاب أخرى",
+									"link": "/Products/11?title=ألعاب أخرى&lang=arabic"
 								}
 							]
 						}
@@ -195,21 +223,7 @@
 					"link": "/"
 				},
 				{
-					"title": "قطع غيار",
-					"menu": [
-						{
-							"items": [
-								{
-									"text": "اكسسوارات للبرك",
-									"link": "/Products/345?title=اكسسوارات%20البرك"
-								}
-							]
-						}
-					],
-					"link": "/"
-				},
-				{
-					"title": "عنا",
+					"title": "من نحن",
 					"menu": null,
 					"link": "/AboutUs"
 				}

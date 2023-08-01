@@ -1,16 +1,18 @@
+import Link from 'next/link';
+
 //Main Component
 export default function Footer({}) {
 	return (
 		<footer className=" bg-gray-100 p-4  sm:p-6">
 			<div className="mx-auto max-w-6xl sm:flex sm:justify-between">
 				<div className="mx-auto mb-6 w-fit max-w-[175px] sm:mx-0 md:mb-0">
-					<a href="/" className="flex items-center">
+					<Link href="/" className="flex items-center">
 						<img
 							src="/Assets/images/kids-marty-logo.png"
 							className="mr-3  w-full"
 							alt="FlowBite Logo"
 						/>
-					</a>
+					</Link>
 				</div>
 				<div className="grid grid-cols-1 gap-8 sm:grid-cols-2 sm:gap-6 ">
 					<div className=" flex flex-col items-center text-center sm:items-start sm:text-left">
@@ -92,9 +94,9 @@ export default function Footer({}) {
 			<div className="mx-auto max-w-6xl sm:flex sm:items-center sm:justify-between">
 				<span className="text-sm text-gray-500 dark:text-gray-400 sm:text-center">
 					© 2023{' '}
-					<a href="/" className="hover:underline">
+					<Link href="/" className="hover:underline">
 						KidsMarty™
-					</a>
+					</Link>
 					. All Rights Reserved.
 				</span>
 			</div>
